@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EpoxyIndo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="assets/img/logo.JPG" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">Tentang Kami</h2>
+  <p>Epoxyindo : kami merupakan Spesialis penyedia aplikasi epoxy yang telah berkecimpung sejak tahun 2007 di indonesia tim kerja profesional merupakan salah satu prosedur perusahaan kami. Menjadi kontraktor epoxy lantai terkemuka yang diakui secara nasional dengan komitmen terhadap kualitas terbaik, inovasi berkelanjutan, dan kempuasan pelanggan yang tak tertandingi, EpoxyIndo adalah pilihan utama untuk semua kebutuhan anda dalam pemeliharaan dan perbaikan lantai
+    </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>My Profile</b></p><br>
+      <img src="assets/img/logo.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p><h2> VISI & MISI</h2></p>
+      <br>
+      <p>Menjadi penyedia jasa Cat Epoxy Lantai Terkemuka di Indonesia. Dikenal karena kualitas dan profesionalisme dalam setiap proyek yang kami kerjakan
+        <p> - Memberikan Kualitas Terbaik
+        <br>- Memenuhi Kebutuhan Pelanggan
+        <br>- Inovasi Berkelanjutan
+        <br>- Membangun Kemitraan Yang Berkelanjutan
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h2 class="w3-center">Manfaat Epoxy Lantai</h2>
+    <p>ada banyak sekali bangunan seperti rumah sakit, gudang, pabrik, parkiran yang menggunakan epoxy lantai karena selain untuk estetika tentunya untuk standar ISO untuk kelayakan bangunan itu sendiri, contohnya pabrik makanan & Laboratorium.
+      Manfaat lantai yang di lapisi epoxy tentu nya untuk menambah keindahan lantai selain itu juga untuk memproteksi beton itu sendiri sehingga lantai menjadi lebih tahan gores ataupun proteksi terhadap kimia berbahaya yang dapat merusak lantai.</p>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>merupakan hasil kinerja team EpoxyIndo</em></p>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/aaa.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/bbb.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/ccc.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/ddd.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/eee.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/fff.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/ggg.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/portfolio/hhh.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col m6 w3-center w3-padding-large">
+    <img src="assets/img/lapisan.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+  </div>
+
+  <!-- Hide this text on small devices -->
+  <br><div class="w3-col m6 w3-hide-small w3-padding-large">
+          <h4>Jasa Epoxy Lantai Kami Meliputi</h4>
+            <p>- Epoxy coating 300 - 500 micron
+    <br>- Epoxy Self Leveling 1000 - 3000 micron
+    <br>- Epoxy PU Concreate 3000 - 10000 micron
+    <br>- Epoxy mortar 3mm - 10mm
+    <br>- Epoxy PU Outdor
+    <br>- Epoxy Flakes
+    </p>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">Harga Epoxy Lantai Per M2</h2>
+  Harga sudah termasuk material dan jasa dengan minimal luasan 100 m2
+  <br>Ketebalan 350 micron : Rp. 130.000,-
+  <br>Ketebalan 500 micron : Rp.    150.000,-
+  <br>Ketebalan 1000 micron : Rp. 185.000,-
+  <br>Ketebalan 2000 micron : Rp. 240.000,-
+  <p><h3>Apa yang anda dapatkan.?</h3></p>
+GRATIS biaya survey
+  <br>GRATIS mork up / Sampel
+  <br>Tenaga ahli yang berpengalaman
+  <br>Produk yang berkualitas
+  <br>Harga bersaing dengan kompetitor
+  <br>Garansi 12 bulan
+<br>------------------------------------------------------------------------------------------------------------------------------
+  <!-- Container (Contact Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="contact"> 
+  <h3 class="w3-center">WHERE I WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+ 
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.188725935852!2d106.9666199!3d-6.238839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c5c0f507a3b%3A0x2b71a50c63bb1163!2sD&#39;Kranji%20Residence%202!5e0!3m2!1sid!2sid!4v1748007220390!5m2!1sid!2sid"
+      width="260" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bekasi<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone +62813-8033-0551<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ariawan22123@gmail.com<br>
+      </div>
+   
+    <script>
+      function sendToWhatsApp() {
+        const nama = document.getElementById("nama").value;
+        const layanan = document.getElementById("layanan").value;
+        const pesan = document.getElementById("pesan").value;
+  
+        const nomorWA = "6281380330551"; // Ganti dengan nomor WA kamu
+        const url = `https://wa.me/${6281380330551}?text=Halo,%20nama%20saya%20${encodeURIComponent(nama)}.%0ASaya%20tertarik%20dengan%20layanan:%20${encodeURIComponent(layanan)}.%0APesan:%20${encodeURIComponent(pesan)}`;
+  
+        window.open(url, "_blank");
+      }
+    </script>
+    <table border="1" cellpadding="10">
+      <tr>
+        <td>Nama</td>
+        <td><input type="text" id="nama" placeholder="Masukkan nama Anda" /></td>
+      </tr>
+      <tr>
+        <td>Layanan</td>
+        <td>
+          <select id="layanan">
+             <option value="Epoxy Lantai Self Leveling">Epoxy Lantai Self Leveling</option>
+            <option value="Epoxy Multilayer Antislip">Epoxy Multilayer Antislip</option>
+            <option value="Epoxy Flakes">Epoxy Flakes</option>
+            <option value="Coating 300-500 Micron">Coating 300-500 Micron</option>
+            <option value="PU Outdor">PU Outdor</option>
+            <option value="Epoxy Concrate">Epoxy Concrate</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Pesan Tambahan</td>
+        <td><textarea id="pesan" rows="4" cols="30" placeholder="Tulis pesan..."></textarea></td>
+      </tr>
+    </table>
+  
+    <br />
+    <button onclick="sendToWhatsApp()" style="padding: 10px 20px; background-color: #25d366; color: white; border: none; border-radius: 5px;">
+      Kirim ke WhatsApp
+    </button>
+   
+</body>
+</html>
